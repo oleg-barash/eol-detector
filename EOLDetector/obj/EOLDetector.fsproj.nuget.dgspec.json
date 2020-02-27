@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\obaranov\\RiderProjects\\EOLDetector\\EOLDetector\\EOLDetector.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\obaranov\\RiderProjects\\EOLDetector\\EOLDetector\\EOLDetector.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\obaranov\\RiderProjects\\EOLDetector\\EOLDetector\\EOLDetector.fsproj",
+        "projectName": "EOLDetector",
+        "projectPath": "C:\\Users\\obaranov\\RiderProjects\\EOLDetector\\EOLDetector\\EOLDetector.fsproj",
+        "packagesPath": "C:\\Users\\obaranov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\obaranov\\RiderProjects\\EOLDetector\\EOLDetector\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\obaranov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Collections.ParallelSeq": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
